@@ -1,0 +1,1 @@
+$("#form").on("submit",function(){var o="https://docs.google.com/forms/d/e/1FAIpQLSeVNDxFd-W3gG1hY5ol16-rQGaLoCkYv0c7H4gCPiW0QHu4oQ/formResponse?entry.903897612="+encodeURIComponent($("#input-name").val())+"&submit=-5261942937227159731";console.log(o),$(this)[0].action=o,console.log("got here")});

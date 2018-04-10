@@ -1,0 +1,17 @@
+{
+  "name": "anonymous-tipbox",
+  "description": "Anonymous, secure website to submit news pitches to The Phillipian",
+  "main": "gulpfile.js",
+  "authors": [
+    "Jeffrey Shen <jeffreyshencc@gmail.com> (http://jeffreyshen.com)"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/phillipian/anonymous-tipbox",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

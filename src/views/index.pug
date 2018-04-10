@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name = "description" content = "An anonymous, secure tip box to suggest news stories for The Phillipian")
+    meta(name = "author" content = "Jeffrey Shen")
+    title The Phillipian | Anonymous News Tips
+    link(href='bower_components/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css' rel='stylesheet' type='text/css')
+    link(href='dist/CSS/main.css', rel='stylesheet', type='text/css')
+    script(src='bower_components/jquery/dist/jquery.min.js')
+  body
+    iframe(src="#" id="no-target" name="no-target" style="visibility:hidden")
+    form#form(method='POST' action="" target="no-target")
+      input#input-name(placeholder="enter name" name="name")
+      button#form-submit(type="submit") SUBMIT
+      
+    script(src='dist/script-min.js')

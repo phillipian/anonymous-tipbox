@@ -1,0 +1,26 @@
+{
+  "name": "anonymous-tipbox",
+  "version": "1.0.0",
+  "description": "Anonymous, secure website to submit news pitches to The Phillipian",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phillipian/anonymous-tipbox.git"
+  },
+  "author": "Jeffrey Shen <jeffreyshencc@gmail.com> (http://jeffreyshen.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phillipian/anonymous-tipbox/issues"
+  },
+  "homepage": "https://github.com/phillipian/anonymous-tipbox#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify": "^2.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
